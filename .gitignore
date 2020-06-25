@@ -117,3 +117,6 @@ dist
 build
 !.vscode
 .publish
+
+# Local Netlify folder
+.netlify

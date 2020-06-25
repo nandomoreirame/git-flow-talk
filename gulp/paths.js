@@ -24,7 +24,4 @@ module.exports = {
     img: 'build/img',
     notes: 'build/js/vendor/notes/',
   },
-  deploy: {
-    pages: 'build/**/*',
-  },
 }
