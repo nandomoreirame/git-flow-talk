@@ -3,8 +3,9 @@
   "private": true,
   "scripts": {
     "start": "gulp",
+    "build": "gulp build",
     "prettier": "prettier --write .",
-    "deploy": "gulp deploy-pages"
+    "deploy": "npm run build && gulp deploy-pages"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
