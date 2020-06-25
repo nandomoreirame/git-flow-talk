@@ -1,0 +1,27 @@
+{
+  "name": "git-flow-talk",
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "prettier": "prettier --write .",
+    "deploy": "gulp deploy-pages"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gulp": "3.9.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.3",
+    "gulp-gh-pages-will": "0.5.5",
+    "gulp-imagemin": "6.2.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-pug": "4.0.1",
+    "gulp-stylus": "2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "3.0.8",
+    "prettier": "^2.0.5"
+  }
+}
