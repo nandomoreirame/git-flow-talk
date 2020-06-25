@@ -4,8 +4,9 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
+    "clean": "rm -rf .publish build",
     "prettier": "prettier --write .",
-    "deploy": "npm run build && gulp deploy-pages"
+    "deploy": "npm run clean && npm run build && gulp deploy-pages"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
