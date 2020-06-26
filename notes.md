@@ -18,7 +18,7 @@ São elas:
 
 - Feature branches
 - Release branches
-- Hotfix/Bugfix branches
+- Hotfix branches
 
 Nota: Cada uma tem um objetivo bem definido e está sujeita a regras ⏤ ex. Quais são as branches de origem e quais devem ser de destino.
 
@@ -40,7 +40,9 @@ No fechamento de versão para produção usamos as **Release branches**.
 
 1. Branch de origem `develop`
 2. Branch de destino `develop` e `master`
-3. Nomes (Convenção/Sugestão): `release/*` ou `release-*`
+3. Nomes (convenção): `release/*` ou `release-*`
+
+Nota: Além de fazer o merge para develop e master é aconselhável que se gere uma tag para essa release, de preferencia usando Versionamento Semantico (https://semver.org/)
 
 ### Hotfix branches
 
@@ -49,15 +51,26 @@ estourando direto com o cliente.
 
 1. Branch de origem `master`
 2. Branch de destino `develop` e `master`
-3. Nomes (Convenção/Sugestão): `hotfix/*` ou `hotfix-*`
+3. Nomes (convenção): `hotfix/*` ou `hotfix-*`
 
-### Branches extras (F)
+### Algumas questões 🤔
 
-E se você não estiver criando uma funcionalidade nova ou apagando fogo em produção, como funcionaria?
+- 🤔 E se eu não estiver criando nenhuma funcionalidade nova?
+- 🤔 E se eu não estiver corrigindo um bug em produção?
 
 Podemos melhorar implementando:
 
-- Bugfix branches - `bugfix/*`;
-- Improvement branches - `improvement/*`;
-- Tasks branches - `task/*`;
-- Docs branches - `doc/*`;
+- Bugfix branches: `bugfix/*`
+- Improvement branches: `improvement/*` ou `enhancement/*`
+- Tasks branches: `task/*` ou `chore/*`
+- Docs branches: `doc/*`
+- CI/CD branches: `ci/*` ou `cd/*`
+- etc.
+
+### Ferramentas
+
+### Links úteis
+
+### Conclusão
+
+Vale mesmo a pena?

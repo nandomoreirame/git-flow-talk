@@ -1,0 +1,19 @@
+- var notes = ''
+
+section(data-notes=notes)
+  section
+    h4 Branches de apoio
+    h2 Release branches
+  section
+    p No fechamento de versão para produção usamos as <em class="highlight"><strong>Release branches</strong></em>.
+  section
+    ol
+      li.fragment Branch de origem: <code>develop</code>
+      li.fragment Branch de destino: <code>develop</code> e <code>master</code>
+      li.fragment Prefixo sugerido (convenção): <code>release/*</code> ou <code>release-*</code>
+  section
+    p
+      | Além de fazer o merge para <code>develop</code> e <code>master</code> é aconselhável que gere uma tag para essa release,
+      | adicionando <span class="highlight">MINOR version</span> à tag: v2.<span class="highlight">3</span>.0<br/>
+      | usando <em class="highlight">Versionamento Semântico</em> (<a href="https://semver.org/" target="_blank">semver.org</a>).
+

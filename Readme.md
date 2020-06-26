@@ -1,3 +1,3 @@
-# [Git Flow Talk](https://nandomoreirame.github.io/git-flow-talk/#/)
+# [Git Flow Talk](https://git-flow-talk.netlify.app/)
 
 by [Fernando Moreira](https://nandomoreira.dev)

@@ -1,0 +1,17 @@
+- var notes = ''
+
+section(data-notes=notes)
+  section
+    h4 Branches de apoio
+    h2 Hotfix branches
+  section
+    p Geralmente usamos as <em class="highlight"><strong>Hotfix branches</strong></em> quando o bicho tá pegando fogo em produção (bug <strong class="highlight">crítico</strong> estourando direto com o cliente).
+  section(data-background="/img/its-fine-fire.gif")
+  section
+    ol
+      li.fragment Branch de origem: <code>master</code>
+      li.fragment Branch de destino: <span><code>develop</code> e <code>master</code></span>
+      li.fragment Prefixo sugerido (convenção): <code>hotfix/*</code> ou <code>hotfix-*</code>
+  section
+    p Geralmente não criamos uma tag <span class="highlight">PATCH version</span> (v2.3.<span class="highlight">1</span>) para as Hotfix branches, mas se quiser pode.
+    img(src="/img/mas-se-quiser-pode.jpeg" alt="mas se quiser pode")
